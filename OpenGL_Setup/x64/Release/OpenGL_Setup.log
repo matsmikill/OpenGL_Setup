@@ -1,0 +1,15 @@
+﻿  glad.c
+  main.cpp
+main.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+main.obj : error LNK2001: unresolved external symbol glfwSetFramebufferSizeCallback
+main.obj : error LNK2001: unresolved external symbol glfwGetKey
+main.obj : error LNK2001: unresolved external symbol glfwTerminate
+main.obj : error LNK2001: unresolved external symbol glfwPollEvents
+main.obj : error LNK2001: unresolved external symbol glfwInit
+main.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+main.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+main.obj : error LNK2001: unresolved external symbol glfwWindowHint
+main.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+main.obj : error LNK2001: unresolved external symbol glfwGetProcAddress
+main.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+C:\C++Projects\OpenGL_Setup\x64\Release\OpenGL_Setup.exe : fatal error LNK1120: 12 unresolved externals

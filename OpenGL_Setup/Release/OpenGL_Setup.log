@@ -1,0 +1,10 @@
+﻿  glad.c
+  main.cpp
+  Generating code
+  0 of 36 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  OpenGL_Setup.vcxproj -> C:\C++Projects\OpenGL_Setup\Release\OpenGL_Setup.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

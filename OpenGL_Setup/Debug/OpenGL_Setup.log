@@ -1,4 +1,7 @@
 ﻿  main.cpp
+C:\C++Projects\OpenGL_Setup\src\main.cpp(79,34): warning C4018: '<': signed/unsigned mismatch
+C:\C++Projects\OpenGL_Setup\src\main.cpp(304,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++Projects\OpenGL_Setup\src\main.cpp(316,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   OpenGL_Setup.vcxproj -> C:\C++Projects\OpenGL_Setup\Debug\OpenGL_Setup.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

@@ -1,0 +1,72 @@
+# Blender 4.0.2 MTL File: 'UEFN_Locker_Test.blend'
+# www.blender.org
+
+newmtl alpha
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_alpha.tga
+map_d C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_alpha.tga
+
+newmtl emissive_alpha
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_alpha.tga
+map_d C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_alpha.tga
+
+newmtl glass
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_glass.tga
+map_d C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_glass.tga
+
+newmtl glows_inner
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/mats.tga
+
+newmtl glows_outer
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.500000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/mats.tga
+
+newmtl magic_glass
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_glass.tga
+map_d C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack_glass.tga
+
+newmtl tex
+Ns 20.000006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/UEFN_Backpack/legend-of-zelda-adventurers-backpack/source/480046632a8343e6ae137398c7da554d.rar/Knapsack/knapsack.tga

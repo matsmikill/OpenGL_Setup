@@ -3,6 +3,7 @@
 #include "imgui_impl_opengl3.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
+#include "camera.h"
 
 #include <iostream>
 #include "tiny_obj_loader.h"
@@ -19,8 +20,32 @@ struct Vertex {
     glm::vec2 texCoord;
 };
 
+struct Model {
+    std::vector<Vertex> vertices;
+    unsigned int VAO, VBO;
+    unsigned int textureID;
+};
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
+
+void mouse_callback(GLFWwindow* window, double xpos, double ypos);
+
+void processInput(GLFWwindow* window, Camera& camera, float deltaTime)
+{
+    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
+
+    // Camera controls (WASD keys for movement)
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+        camera.ProcessKeyboard(FORWARD, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+        camera.ProcessKeyboard(BACKWARD, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+        camera.ProcessKeyboard(LEFT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+        camera.ProcessKeyboard(RIGHT, deltaTime);
+}
 
 // settings
 const unsigned int SCR_WIDTH = 800;
@@ -117,15 +142,18 @@ int main()
     float rotationSpeedZ = 10.0f;  // Z-axis
 
     bool autoRotate = true;
+    bool rotationDirectionX = true;
 
     // Time tracking
-    float lastFrame = 0.0f;  // Time of the last frame
+    //float lastFrame = 0.0f;  // Time of the last frame
 
-
-    
     bool wireframeMode = false;
 
     bool colorCycle = false;
+
+    Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+    float deltaTime = 0.0f; // Time between current frame and last frame
+    float lastFrame = 0.0f;  // Time of last frame
 
 
     // glfw: initialize and configure
@@ -285,6 +313,7 @@ int main()
     stbi_image_free(data);
 
     glEnable(GL_DEPTH_TEST);
+
     // render loop
     // -----------
     while (!glfwWindowShouldClose(window))
@@ -294,6 +323,8 @@ int main()
         processInput(window);
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+        view = camera.GetViewMatrix();
 
         // render
         // ------
@@ -305,9 +336,20 @@ int main()
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
 
+        processInput(window, camera, deltaTime);
+
         if (autoRotate) {
+
+            // Rotation on X-axis
+            if (rotationX >= 360.0f) {
+                rotationDirectionX = false; // Reverse direction to decreasing
+            }
+            else if (rotationX <= 0.0f) {
+                rotationDirectionX = true;  // Reverse direction to increasing
+            }
+
             // Automatically update rotation angles based on delta time and rotation speed
-            rotationX += rotationSpeedX * deltaTime;
+            rotationX += (rotationDirectionX ? 1 : -1) * rotationSpeedX * deltaTime;
             rotationY += rotationSpeedY * deltaTime;
             rotationZ += rotationSpeedZ * deltaTime;
         }

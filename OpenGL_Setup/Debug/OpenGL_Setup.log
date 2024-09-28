@@ -1,7 +1,19 @@
-﻿  main.cpp
-C:\C++Projects\OpenGL_Setup\src\main.cpp(79,34): warning C4018: '<': signed/unsigned mismatch
-C:\C++Projects\OpenGL_Setup\src\main.cpp(304,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\C++Projects\OpenGL_Setup\src\main.cpp(316,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  OpenGL_Setup.vcxproj -> C:\C++Projects\OpenGL_Setup\Debug\OpenGL_Setup.exe
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  tiny_obj_loader.cc
+  main.cpp
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(104,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(335,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(358,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  glad.c
+  LINK : C:\Users\matsm\Documents\GitHub\OpenGL_Setup\Debug\OpenGL_Setup.exe not found or not built by the last incremental link; performing full link
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  OpenGL_Setup.vcxproj -> C:\Users\matsm\Documents\GitHub\OpenGL_Setup\Debug\OpenGL_Setup.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

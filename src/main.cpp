@@ -4,11 +4,14 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 #include "camera.h"
+//#include "Texture.h"
+//#include "Model.h"
 
 #include <iostream>
 #include "tiny_obj_loader.h"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+//#include "ModelManager.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -148,6 +151,8 @@ int main()
     //float lastFrame = 0.0f;  // Time of the last frame
 
     bool wireframeMode = false;
+    bool wireframeModePoints = false;
+    float pointSize = 0.0f;
 
     bool colorCycle = false;
 
@@ -228,6 +233,10 @@ int main()
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
+    // Model manager to handle multiple objects
+    //ModelManager modelManager;
+    //modelManager.loadModel("3D_Models/Horn.obj", "Textures/Horn_Texture");  // Load second object
+
     // Load OBJ file and extract vertex positions
     std::vector<Vertex> Vertices;
     if (!LoadOBJ("3D_Models/Back.obj", Vertices)) {
@@ -244,6 +253,7 @@ int main()
          0.0f,  0.5f, 0.0f,  0.5f, 1.0f   // Top
     };
 
+    // Setup vertex data (and buffer(s)) and configure vertex attributes
     unsigned int objVBO, objVAO;
     glGenVertexArrays(1, &objVAO);
     glGenBuffers(1, &objVBO);
@@ -266,7 +276,6 @@ int main()
 
     glBindVertexArray(0);
 
-
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO(); (void)io;
@@ -286,6 +295,8 @@ int main()
 
     // uncomment this call to draw in wireframe polygons.
     glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    glPolygonMode(GL_FRONT_AND_BACK, GL_POINT);
+    glEnable(GL_PROGRAM_POINT_SIZE);
 
     //-----------------------------------------------------------------------------------------
     // Load and create the texture
@@ -313,6 +324,8 @@ int main()
     stbi_image_free(data);
 
     glEnable(GL_DEPTH_TEST);
+
+    
 
     // render loop
     // -----------
@@ -370,12 +383,17 @@ int main()
         model = glm::scale(model, glm::vec3(scale, scale, scale)); // Scale
 
         // Apply wireframe mode if enabled
-        if (wireframeMode) {
-            glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);  // Enable wireframe
+        if (wireframeModePoints) {
+            glPolygonMode(GL_FRONT_AND_BACK, GL_POINT);
+            glPointSize(pointSize);
+        }
+        else if (wireframeMode) {
+            glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
         }
         else {
-            glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);  // Default mode
+            glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);   
         }
+
 
 
         // Set the uniform values in the shader
@@ -396,6 +414,8 @@ int main()
             glDrawArrays(GL_TRIANGLES, 0, Vertices.size());
         }
 
+        //modelManager.drawModels();
+
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
@@ -407,6 +427,8 @@ int main()
         ImGui::ColorEdit4("Color", color);
         ImGui::SliderFloat("size", &scale, 0.1f, 3.0f);
         ImGui::Checkbox("Wireframe", &wireframeMode);
+        ImGui::Checkbox("Wireframe_Points", &wireframeModePoints);
+        ImGui::SliderFloat("Point_Size", &pointSize, 0.0f, 100.0f);
         ImGui::SliderFloat("Rotation X", &rotationX, 0.0f, 360.0f); // Rotation around X
         ImGui::SliderFloat("Rotation Y", &rotationY, 0.0f, 360.0f); // Rotation around Y
         ImGui::SliderFloat("Rotation Z", &rotationZ, 0.0f, 360.0f); // Rotation around Z
@@ -443,10 +465,14 @@ int main()
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
 
-    // optional: de-allocate all resources once they've outlived their purpose:
-    // ------------------------------------------------------------------------
     glDeleteVertexArrays(1, &objVAO);
     glDeleteBuffers(1, &objVBO);
+    glDeleteProgram(shaderProgram);
+
+    // optional: de-allocate all resources once they've outlived their purpose:
+    // ------------------------------------------------------------------------
+    //glDeleteVertexArrays(1, &objVAO);
+    //glDeleteBuffers(1, &objVBO);
     glDeleteProgram(shaderProgram);
 
     // glfw: terminate, clearing all previously allocated GLFW resources.

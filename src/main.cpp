@@ -1,17 +1,15 @@
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
+#include "tiny_obj_loader.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
-#include "camera.h"
-//#include "Texture.h"
-//#include "Model.h"
+#include "Camera.h"
+#include "TerrainPlane.h"
 
 #include <iostream>
-#include "tiny_obj_loader.h"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-//#include "ModelManager.h"
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -30,29 +28,41 @@ struct Model {
 };
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void processInput(GLFWwindow* window);
+//void processInput(GLFWwindow* window);
 
-void mouse_callback(GLFWwindow* window, double xpos, double ypos);
+Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+float lastX = 400, lastY = 300;
+bool firstMouse = true;
 
-void processInput(GLFWwindow* window, Camera& camera, float deltaTime)
-{
-    if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, true);
-
-    // Camera controls (WASD keys for movement)
+void processInput(GLFWwindow* window, float deltaTime) {
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        camera.ProcessKeyboard(FORWARD, deltaTime);
+        camera.processKeyboard(0, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        camera.ProcessKeyboard(BACKWARD, deltaTime);
+        camera.processKeyboard(1, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        camera.ProcessKeyboard(LEFT, deltaTime);
+        camera.processKeyboard(2, deltaTime);
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        camera.ProcessKeyboard(RIGHT, deltaTime);
+        camera.processKeyboard(3, deltaTime);
+}
+
+void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
+    if (firstMouse) {
+        lastX = xpos;
+        lastY = ypos;
+        firstMouse = false;
+    }
+
+    float xoffset = xpos - lastX;
+    float yoffset = lastY - ypos; // reversed since y-coordinates range from bottom to top
+    lastX = xpos;
+    lastY = ypos;
+
+    camera.processMouseMovement(xoffset, yoffset);
 }
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 1100;
+const unsigned int SCR_HEIGHT = 900;
 
 const char* vertexShaderSourceWithTexture = "#version 330 core\n"
 "layout (location = 0) in vec3 aPos;\n"
@@ -144,7 +154,7 @@ int main()
     float rotationSpeedY = 30.0f;  // Y-axis
     float rotationSpeedZ = 10.0f;  // Z-axis
 
-    bool autoRotate = true;
+    bool autoRotate = false;
     bool rotationDirectionX = true;
 
     // Time tracking
@@ -156,9 +166,6 @@ int main()
 
     bool colorCycle = false;
 
-    Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
-    float deltaTime = 0.0f; // Time between current frame and last frame
-    float lastFrame = 0.0f;  // Time of last frame
 
 
     // glfw: initialize and configure
@@ -167,6 +174,8 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
+   
 
 #ifdef __APPLE__
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
@@ -192,6 +201,8 @@ int main()
         return -1;
     }
 
+    glfwSetCursorPosCallback(window, mouse_callback);
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
     // build and compile our shader program
     // ------------------------------------
@@ -233,9 +244,7 @@ int main()
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
-    // Model manager to handle multiple objects
-    //ModelManager modelManager;
-    //modelManager.loadModel("3D_Models/Horn.obj", "Textures/Horn_Texture");  // Load second object
+    
 
     // Load OBJ file and extract vertex positions
     std::vector<Vertex> Vertices;
@@ -323,7 +332,15 @@ int main()
     }
     stbi_image_free(data);
 
+    
+
     glEnable(GL_DEPTH_TEST);
+
+    // Create terrain
+    TerrainPlane terrain(10, 10);  // 100x100 grid
+
+    float deltaTime = 0.0f;
+    float lastFrame = 0.0f;
 
     
 
@@ -331,25 +348,29 @@ int main()
     // -----------
     while (!glfwWindowShouldClose(window))
     {
-        // input
-        // -----
-        processInput(window);
-
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-        view = camera.GetViewMatrix();
-
-        // render
-        // ------
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
 
         // Calculate delta time for smooth animation
         float currentFrame = glfwGetTime();
         float deltaTime = currentFrame - lastFrame;
         lastFrame = currentFrame;
 
-        processInput(window, camera, deltaTime);
+        // input
+        // -----
+        processInput(window, deltaTime);
+
+        
+
+        // render
+        // ------
+        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        //glClear(GL_COLOR_BUFFER_BIT);
+
+        glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
+
+        glm::mat4 view = camera.getViewMatrix();
+
+        //processInput(window, camera, deltaTime);
 
         if (autoRotate) {
 
@@ -394,7 +415,8 @@ int main()
             glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);   
         }
 
-
+        // Render terrain
+        terrain.render();
 
         // Set the uniform values in the shader
         glUseProgram(shaderProgram);
@@ -416,6 +438,8 @@ int main()
 
         //modelManager.drawModels();
 
+        
+
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
@@ -434,8 +458,10 @@ int main()
         ImGui::SliderFloat("Rotation Z", &rotationZ, 0.0f, 360.0f); // Rotation around Z
         ImGui::Checkbox("autoRotate", &autoRotate);
         ImGui::Checkbox("colorCycle", &colorCycle);
-        // Debug print to check values
-        std::cout << "Rotation X: " << rotationX << " Y: " << rotationY << " Z: " << rotationZ << std::endl;
+        ImGui::End();
+
+        ImGui::Begin("Terrain");
+        ImGui::SliderFloat("Test", &yPos, 0.0f);
         ImGui::End();
 
         glUseProgram(shaderProgram);
@@ -468,6 +494,8 @@ int main()
     glDeleteVertexArrays(1, &objVAO);
     glDeleteBuffers(1, &objVBO);
     glDeleteProgram(shaderProgram);
+
+    
 
     // optional: de-allocate all resources once they've outlived their purpose:
     // ------------------------------------------------------------------------

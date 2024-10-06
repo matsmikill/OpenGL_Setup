@@ -1,0 +1,782 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl PanelFlame
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/PanelFlame_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/PanelFlame_Alb.png
+
+newmtl PlantA_m
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/PlantA_01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/PlantA_01_Alb.png
+
+newmtl PlantA_m_bake
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/PlantA_01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/PlantA_01_Alb.png
+
+newmtl blinn_LeavesA
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafA_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafA_Alb.png
+
+newmtl blinn_LeavesA_bake
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafA_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafA_Alb.png
+
+newmtl blinn_LeavesB
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafB_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafB_Alb.png
+
+newmtl blinn_LeavesB_bake
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafB_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ExLeafB_Alb.png
+
+newmtl ef_crystal01
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_crystal01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_crystal01_Alb.png
+
+newmtl ef_crystal01_cubemap
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_crystal01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_crystal01_Alb.png
+
+newmtl ef_dashboard
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_dashboard02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_dashboard02_Alb.png
+
+newmtl ef_glideboard
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_glideboard02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_glideboard02_Alb.png
+
+newmtl ef_gravityboard
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_GravityPanell_Alb2.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_GravityPanell_Alb2.png
+
+newmtl ef_river02
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_river02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_river02_Alb.png
+
+newmtl ef_river02_NoAlpha
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_river02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_river02_Alb.png
+
+newmtl ef_waterfall04
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_waterfall04_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_waterfall04_Alb.png
+
+newmtl ef_waterfall04_2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_waterfall04_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/ef_waterfall04_Alb.png
+
+newmtl ex_Kakiwari
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_Kakiwari_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_Kakiwari_Alb.png
+
+newmtl ex_StartGrid
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_StartGrid_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_StartGrid_Alb.png
+
+newmtl ex_StartLine
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_StartLine_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_StartLine_Alb.png
+
+newmtl ex_StartLine2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_StartLine2_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_StartLine2_Alb.png
+
+newmtl ex_Waterfall_Bottom
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_Waterfall_Bottom_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_Waterfall_Bottom_Alb.png
+
+newmtl ex_arrow01
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_arrow01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_arrow01_Alb.png
+
+newmtl ex_cliff03
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff03_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff03_Alb.png
+
+newmtl ex_cliff03_tyre
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff03_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff03_Alb.png
+
+newmtl ex_cliff_all
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_NoSpm
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_out_course
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_out_dokan
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_wet
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_wet_out_course
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_cliff_all_wet_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_cliff_all_Alb.png
+
+newmtl ex_grass
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+
+newmtl ex_grass_out
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+
+newmtl ex_grass_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+
+newmtl ex_grass_shadow_set
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+
+newmtl ex_grass_ties
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_grass_Alb.png
+
+newmtl ex_jump
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_jump_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_jump_Alb.png
+
+newmtl ex_jump_gravity
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_jump_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_jump_Alb.png
+
+newmtl ex_lamp_emm_cubemap
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal_Alb.png
+
+newmtl ex_makuragi
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_makuragi_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_makuragi_Alb.png
+
+newmtl ex_makuragi_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_makuragi_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_makuragi_Alb.png
+
+newmtl ex_mariokart
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_mariokart_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_mariokart_Alb.png
+
+newmtl ex_mc_Field_Enkei1
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_mc_Field_Enkei_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_mc_Field_Enkei_Alb.png
+
+newmtl ex_mc_Tree_Enkei
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_mc_Tree_Enkei_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_mc_Tree_Enkei_Alb.png
+
+newmtl ex_nawa
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+
+newmtl ex_road01
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_road01_Alpha
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alpha_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alpha_Alb.png
+
+newmtl ex_road01_gravity
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_road01_set
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_road01_set2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_road02
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+
+newmtl ex_road02_Alpha
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+
+newmtl ex_road02_Alpha_ana
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+
+newmtl ex_road02_out
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+
+newmtl ex_road02_set
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+
+newmtl ex_road02_set2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road02_Alb.png
+
+newmtl ex_road_MultiTex
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_road_MultiTexRM04
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_road_MultiTex_set2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_road01_Alb.png
+
+newmtl ex_rock01
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_rock01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_rock01_Alb.png
+
+newmtl ex_rock01_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_rock01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_rock01_Alb.png
+
+newmtl ex_sgmetal
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal_Alb.png
+
+newmtl ex_sgmetal2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal2_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal2_Alb.png
+
+newmtl ex_sgmetal_emm
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgmetal_Alb.png
+
+newmtl ex_sgwood
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+
+newmtl ex_sgwood2
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+
+newmtl ex_sgwood2_wet
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+
+newmtl ex_sgwood2_wet_road
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2road_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2road_Alb.png
+
+newmtl ex_sgwood2_wet_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood2_Alb.png
+
+newmtl ex_sgwood_bolt
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+
+newmtl ex_sgwood_bolt_nuki
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+
+newmtl ex_sgwood_bolt_wet_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+
+newmtl ex_sgwood_wet
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+
+newmtl ex_sgwood_wet_shadow
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/uex_sgwood_Alb.png
+
+newmtl m_CrashBox
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/CrashBox_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/CrashBox_Alb.png
+
+newmtl mc_kusa
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/kusa_01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/kusa_01_Alb.png
+
+newmtl mc_kusa_bake
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/kusa_01_Alb.png
+map_d C:/Users/matsm/Documents/3D_Models/Mario_Kart/WiiU/Wii U - Mario Kart 8 - Shy Guy Falls/kusa_01_Alb.png

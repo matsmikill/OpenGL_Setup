@@ -1,8 +1,32 @@
-﻿  glad.c
-  main.cpp
+﻿imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetClipboardString
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetInputMode
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetWindowAttrib
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetTime
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetKey
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetMonitorCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetFramebufferSize
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetClipboardString
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetCursorEnterCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetWindowSize
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetMouseButtonCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetCursor
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwDestroyCursor
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetScrollCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetInputMode
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwCreateStandardCursor
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetError
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetCursorPos
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetWin32Window
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetGamepadState
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetKeyName
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwGetCursorPos
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetWindowFocusCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetErrorCallback
+imgui_impl_glfw.obj : error LNK2001: unresolved external symbol glfwSetCharCallback
 main.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
 main.obj : error LNK2001: unresolved external symbol glfwSetFramebufferSizeCallback
-main.obj : error LNK2001: unresolved external symbol glfwGetKey
 main.obj : error LNK2001: unresolved external symbol glfwTerminate
 main.obj : error LNK2001: unresolved external symbol glfwPollEvents
 main.obj : error LNK2001: unresolved external symbol glfwInit
@@ -12,4 +36,4 @@ main.obj : error LNK2001: unresolved external symbol glfwWindowHint
 main.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
 main.obj : error LNK2001: unresolved external symbol glfwGetProcAddress
 main.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
-C:\C++Projects\OpenGL_Setup\x64\Release\OpenGL_Setup.exe : fatal error LNK1120: 12 unresolved externals
+C:\C++Projects\OpenGL_Setup\x64\Release\OpenGL_Setup.exe : fatal error LNK1120: 38 unresolved externals

@@ -1,7 +1,96 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\BloomEffect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\BloomEffect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\BloomEffect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\BloomEffect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Shader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Terrain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Terrain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:src\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\final.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\final.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\final.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\final.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\blur.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\blur.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\blur.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\blur.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\shader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\bloom.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\bloom.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\bloom.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\bloom.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A81370FA-9AE8-4DCA-949C-96F8B9835B72}|OpenGL_Setup.vcxproj|solutionrelative:Shaders\\shader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\include\\stb_image\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\stb_image\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +98,276 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AQIAABoBAAAAAAAAAAAAACgBAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-30T14:41:09.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Texture.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Texture.h",
+              "RelativeDocumentMoniker": "src\\Texture.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Texture.h",
+              "RelativeToolTip": "src\\Texture.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-30T18:32:01.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Terrain.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Terrain.h",
+              "RelativeDocumentMoniker": "src\\Terrain.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Terrain.h",
+              "RelativeToolTip": "src\\Terrain.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-03T09:21:05.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Shader.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Shader.h",
+              "RelativeDocumentMoniker": "src\\Shader.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Shader.h",
+              "RelativeToolTip": "src\\Shader.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-04T06:52:35.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shader.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Shader.cpp",
+              "RelativeDocumentMoniker": "src\\Shader.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Shader.cpp",
+              "RelativeToolTip": "src\\Shader.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAFYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-04T07:11:53.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Road.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Road.h",
+              "RelativeDocumentMoniker": "src\\Road.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Road.h",
+              "RelativeToolTip": "src\\Road.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-03T09:22:29.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Model.h",
+              "RelativeDocumentMoniker": "src\\Model.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Model.h",
+              "RelativeToolTip": "src\\Model.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-30T18:33:39.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BloomEffect.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\BloomEffect.h",
+              "RelativeDocumentMoniker": "src\\BloomEffect.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\BloomEffect.h",
+              "RelativeToolTip": "src\\BloomEffect.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-06T17:02:52.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BloomEffect.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\BloomEffect.cpp",
+              "RelativeDocumentMoniker": "src\\BloomEffect.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\BloomEffect.cpp",
+              "RelativeToolTip": "src\\BloomEffect.cpp",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-06T17:03:20.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Terrain.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Terrain.cpp",
+              "RelativeDocumentMoniker": "src\\Terrain.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Terrain.cpp",
+              "RelativeToolTip": "src\\Terrain.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T09:21:39.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Road.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Road.cpp",
+              "RelativeDocumentMoniker": "src\\Road.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Road.cpp",
+              "RelativeToolTip": "src\\Road.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-03T09:22:50.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Model.cpp",
+              "RelativeDocumentMoniker": "src\\Model.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Model.cpp",
+              "RelativeToolTip": "src\\Model.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-30T18:33:56.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Texture.cpp",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Texture.cpp",
+              "RelativeDocumentMoniker": "src\\Texture.cpp",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\src\\Texture.cpp",
+              "RelativeToolTip": "src\\Texture.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-30T18:32:17.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "shader.vert",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\shader.vert",
+              "RelativeDocumentMoniker": "Shaders\\shader.vert",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\shader.vert",
+              "RelativeToolTip": "Shaders\\shader.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-02T07:41:54.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "bloom.vert",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\bloom.vert",
+              "RelativeDocumentMoniker": "Shaders\\bloom.vert",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\bloom.vert",
+              "RelativeToolTip": "Shaders\\bloom.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T16:29:15.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "bloom.frag",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\bloom.frag",
+              "RelativeDocumentMoniker": "Shaders\\bloom.frag",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\bloom.frag",
+              "RelativeToolTip": "Shaders\\bloom.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T16:29:46.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "blur.vert",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\blur.vert",
+              "RelativeDocumentMoniker": "Shaders\\blur.vert",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\blur.vert",
+              "RelativeToolTip": "Shaders\\blur.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T16:35:40.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "blur.frag",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\blur.frag",
+              "RelativeDocumentMoniker": "Shaders\\blur.frag",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\blur.frag",
+              "RelativeToolTip": "Shaders\\blur.frag",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T16:36:12.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "final.vert",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\final.vert",
+              "RelativeDocumentMoniker": "Shaders\\final.vert",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\final.vert",
+              "RelativeToolTip": "Shaders\\final.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T16:37:00.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "final.frag",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\final.frag",
+              "RelativeDocumentMoniker": "Shaders\\final.frag",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\final.frag",
+              "RelativeToolTip": "Shaders\\final.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-06T16:37:26.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "shader.frag",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\shader.frag",
+              "RelativeDocumentMoniker": "Shaders\\shader.frag",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\Shaders\\shader.frag",
+              "RelativeToolTip": "Shaders\\shader.frag",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-02T07:46:40.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "stb_image.h",
+              "DocumentMoniker": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\include\\stb_image\\stb_image.h",
+              "RelativeDocumentMoniker": "include\\stb_image\\stb_image.h",
+              "ToolTip": "C:\\Users\\matsm\\Documents\\GitHub\\OpenGL_Setup\\include\\stb_image\\stb_image.h",
+              "RelativeToolTip": "include\\stb_image\\stb_image.h",
+              "ViewState": "AQIAACIbAAAAAAAAAIAwwDIbAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T19:09:56.815Z"
             }
           ]
         }

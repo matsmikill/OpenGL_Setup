@@ -1,2 +1,12 @@
+C:\C++Projects\OpenGL_Setup\imgui\imgui.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui.obj
+C:\C++Projects\OpenGL_Setup\imgui\imgui_demo.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui_demo.obj
+C:\C++Projects\OpenGL_Setup\imgui\imgui_draw.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui_draw.obj
+C:\C++Projects\OpenGL_Setup\imgui\imgui_impl_glfw.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui_impl_glfw.obj
+C:\C++Projects\OpenGL_Setup\imgui\imgui_impl_opengl3.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui_impl_opengl3.obj
+C:\C++Projects\OpenGL_Setup\imgui\imgui_tables.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui_tables.obj
+C:\C++Projects\OpenGL_Setup\imgui\imgui_widgets.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\imgui_widgets.obj
+C:\C++Projects\OpenGL_Setup\include\tinyobjloader\tiny_obj_loader.cc;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\tiny_obj_loader.obj
 C:\C++Projects\OpenGL_Setup\src\glad.c;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\glad.obj
 C:\C++Projects\OpenGL_Setup\src\main.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\main.obj
+C:\C++Projects\OpenGL_Setup\src\Mesh.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\Mesh.obj
+C:\C++Projects\OpenGL_Setup\src\ModelManager.cpp;C:\C++Projects\OpenGL_Setup\OpenGL_Setup\Release\ModelManager.obj

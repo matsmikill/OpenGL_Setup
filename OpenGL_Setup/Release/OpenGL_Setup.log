@@ -1,10 +1,10 @@
-﻿  glad.c
-  main.cpp
-  Generating code
-  0 of 36 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  OpenGL_Setup.vcxproj -> C:\C++Projects\OpenGL_Setup\Release\OpenGL_Setup.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  main.cpp
+C:\C++Projects\OpenGL_Setup\src\main.cpp(107,34): warning C4018: '<': signed/unsigned mismatch
+C:\C++Projects\OpenGL_Setup\src\main.cpp(328,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++Projects\OpenGL_Setup\src\main.cpp(351,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+  Model.cpp
+  ModelManager.cpp
+  Texture.cpp
+Model.obj : error LNK2001: unresolved external symbol "public: __thiscall Mesh::Mesh(void)" (??0Mesh@@QAE@XZ)
+C:\C++Projects\OpenGL_Setup\Release\OpenGL_Setup.exe : fatal error LNK1120: 1 unresolved externals

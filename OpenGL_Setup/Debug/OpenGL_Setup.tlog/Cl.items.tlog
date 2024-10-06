@@ -6,5 +6,12 @@ C:\Users\matsm\Documents\GitHub\OpenGL_Setup\imgui\imgui_impl_opengl3.cpp;C:\Use
 C:\Users\matsm\Documents\GitHub\OpenGL_Setup\imgui\imgui_tables.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\imgui_tables.obj
 C:\Users\matsm\Documents\GitHub\OpenGL_Setup\imgui\imgui_widgets.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\imgui_widgets.obj
 C:\Users\matsm\Documents\GitHub\OpenGL_Setup\include\tinyobjloader\tiny_obj_loader.cc;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\tiny_obj_loader.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\BloomEffect.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\BloomEffect.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Camera.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\Camera.obj
 C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\glad.c;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\glad.obj
 C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\main.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Model.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\Model.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Road.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\Road.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Shader.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\Shader.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\Terrain.obj
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Texture.cpp;C:\Users\matsm\Documents\GitHub\OpenGL_Setup\OpenGL_Setup\Debug\Texture.obj

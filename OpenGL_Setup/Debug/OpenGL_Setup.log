@@ -6,13 +6,40 @@
   imgui_tables.cpp
   imgui_widgets.cpp
   tiny_obj_loader.cc
+  BloomEffect.cpp
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\BloomEffect.cpp(60,32): warning C4018: '<': signed/unsigned mismatch
+  Camera.cpp
   main.cpp
-C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(104,34): warning C4018: '<': signed/unsigned mismatch
-C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(335,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(358,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(51,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(52,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(55,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(56,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(57,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(58,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(141,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(141,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(192,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(255,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(305,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\main.cpp(305,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Model.cpp
+  Road.cpp
+  Shader.cpp
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Shader.cpp(32,36): warning C4101: 'e': unreferenced local variable
+  Terrain.cpp
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(15,32): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(15,32): warning C4244:         with
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(15,32): warning C4244:         [
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(15,32): warning C4244:             _Ty=float
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(15,32): warning C4244:         ]
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(17,32): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(17,32): warning C4244:         with
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(17,32): warning C4244:         [
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(17,32): warning C4244:             _Ty=float
+C:\Users\matsm\Documents\GitHub\OpenGL_Setup\src\Terrain.cpp(17,32): warning C4244:         ]
+  Texture.cpp
   Generating Code...
   glad.c
-  LINK : C:\Users\matsm\Documents\GitHub\OpenGL_Setup\Debug\OpenGL_Setup.exe not found or not built by the last incremental link; performing full link
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   OpenGL_Setup.vcxproj -> C:\Users\matsm\Documents\GitHub\OpenGL_Setup\Debug\OpenGL_Setup.exe
   'pwsh.exe' is not recognized as an internal or external command,

@@ -147,8 +147,15 @@
     <ClCompile Include="imgui\imgui_tables.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
     <ClCompile Include="include\tinyobjloader\tiny_obj_loader.cc" />
+    <ClCompile Include="src\BloomEffect.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Model.cpp" />
+    <ClCompile Include="src\Road.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Terrain.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\GLAD\glad\glad.h" />
@@ -172,9 +179,23 @@
     <ClInclude Include="imgui\imstb_textedit.h" />
     <ClInclude Include="imgui\imstb_truetype.h" />
     <ClInclude Include="include\tinyobjloader\tiny_obj_loader.h" />
-    <ClInclude Include="src\shader.h" />
+    <ClInclude Include="src\BloomEffect.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Mesh.h" />
+    <ClInclude Include="src\Model.h" />
+    <ClInclude Include="src\ModelManager.h" />
+    <ClInclude Include="src\Road.h" />
+    <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\Terrain.h" />
+    <ClInclude Include="src\Texture.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Shaders\bloom.frag" />
+    <None Include="Shaders\bloom.vert" />
+    <None Include="Shaders\blur.frag" />
+    <None Include="Shaders\blur.vert" />
+    <None Include="Shaders\final.frag" />
+    <None Include="Shaders\final.vert" />
     <None Include="Shaders\shader.frag" />
     <None Include="Shaders\shader.vert" />
   </ItemGroup>
